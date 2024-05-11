@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { ServiceResultsResponse } from "./server";
 import { FeaturefulSearchInput, SearchResults } from "./components/search";
 
+
+
 export default function ServiceSearch() {
   const [serviceSearchInputValue, setServiceSearchInputValue] =
     useState<string>("");
